@@ -81,7 +81,6 @@ app.post('/login', async (req, res) => {
 
 
     } 
-    
     catch (e) {
 
         res.send("wrong details")
